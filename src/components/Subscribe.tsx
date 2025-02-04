@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Subscribe = () => {
+  const style = {
+    textBlack:{
+      color:'black'
+    }
+  }
   return (
     <div>
           <h1>Contact Us</h1>
@@ -13,7 +18,7 @@ const Subscribe = () => {
         
             <div>
               <label>
-                Email: <input type="email" name="email"/>
+                Email: <input type="email" name="email" style={style.textBlack}/>
               </label>
             </div>
            
